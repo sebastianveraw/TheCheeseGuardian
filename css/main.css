@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MYRIADPRO-REGULAR.OTF');
+}
+
+body{
+	margin:0;
+}
+
+.separator{
+	min-height: 10px;
+}
+
+#first{
+	background-color:#f5c85f;
+}
+
+#second{
+	background-image: url("../images/triangle.png");
+	background-repeat: repeat-x;
+}
+
+.sector {
+	text-align: center;
+	padding:50px;
+}
+
+.image_container{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.line{
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 250px;
+	min-width: 3px;
+	background: radial-gradient(#f5c85f, white);
+	margin: 10px;
+}
+
+.option_container{
+	display: inline-block;
+	vertical-align: top;
+	width: 225px;
+	text-align: center;
+	margin:20px;
+}
+.sector_options{
+	background-color: #EEEEEE;
+}
+
+.sector_footer{
+	background-color: #f5c85f;
+	box-shadow: 0px -5px 5px #999999;
+	padding: 10px;
+}
+
+.white{
+	color:white;
+	padding-top: 5px;
+	margin:5px;
+	 
+}
+
+.dg{
+	color:#111111;
+	max-width: 220px;
+	margin:0px;
+}
+
+p{
+	color:#999999;
+	font-family: 'MyriadPro';
+	font-size: 16px;
+	margin:0px;
+	display: block;
+
+}
+
+h1{
+	text-align: center;
+	font-family: 'MyriadPro';
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom:10px;
+}
+
+input{
+	min-height: 20px;
+	min-width: 250px;
+	background-color: white;
+	border-style: solid;
+	border-color: white;
+	border-radius: 6px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+button{
+	font-size: 20px;
+	background-color: transparent;
+	color:white;
+	border-style: solid;
+	border-color: white;
+	border-radius: 6px;
+	margin: 10px;
+}
